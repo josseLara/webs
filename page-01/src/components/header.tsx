@@ -9,7 +9,7 @@ export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState("");
-  const menuRef = useRef(null);
+  const menuRef:any = useRef(null);
 
   // Detectar scroll para el fondo del header
   useEffect(() => {

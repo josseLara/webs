@@ -10,7 +10,7 @@ const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'EVASION',
+  title: 'Home',
   description: 'Sustainable passive homes that combine contemporary design with environmental respect — built for those who refuse to choose between modern comfort and ecological responsibility.',
   icons: {
     icon: [
